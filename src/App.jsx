@@ -1,3 +1,4 @@
+import pollitoImg from './assets/pollito.jpg'
 import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
@@ -22,6 +23,7 @@ function App() {
           Soy estudiante de ingeniería de sistemas de tercer semestre
           y estoy aprendiendo a crear proyectos con React.
           </p>
+          <img src={pollitoImg} alt="Imagen pollito crochet" />
         </div>
       </section>
 
