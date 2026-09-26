@@ -7,17 +7,17 @@ function App() {
     <>
       <section id="center">
         <div>
-          <div className="presentacion">
+          <div className="titulo-principal">
             <h1>Miloop Crochet</h1>
+            <img src={pollitoImg} alt="Imagen pollito crochet" />
+          </div>
           <p>
             El crochet es mi hobby favorito y también se convirtió en un pequeño emprendimiento.
           </p>
           <p>
-          En Miloop Crochet encontrarás amigurumis, llaveros 
-          y otras pequeñas creaciones tejidas a mano.
+            En Miloop Crochet encontrarás amigurumis, llaveros
+            y otras pequeñas creaciones tejidas a mano.
           </p>
-
-          <img src={pollitoImg} alt="Imagen pollito crochet" /></div>
 
           <h2 className="titulo-creaciones">Lo que hago</h2>
 
@@ -25,27 +25,26 @@ function App() {
 
             <div>
               <h3>Amigurumis</h3>
-            <p>Animalitos y personajes tejidos a mano</p>
+              <p>Animalitos y personajes tejidos a mano</p>
             </div>
 
             <div>
               <h3>Llaveros</h3>
-            <p>Pequeños detalles para llevar contigo</p>
+              <p>Pequeños detalles para llevar contigo</p>
             </div>
 
             <div>
               <h3>Detalles Personalizados</h3>
-            <p>Creaciones especiales para regalar</p>
+              <p>Creaciones especiales para regalar</p>
             </div>
-            </div>
-            </div>
-      </section>
-          
-          
+          </div>
+          <p className="frase-final">
+            Hecho a mano con mucho cariño
+          </p>
+        </div>
 
-    
+      </section>
     </>
   )
 }
-
 export default App
