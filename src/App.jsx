@@ -1,4 +1,3 @@
-```jsx
 import Playground from "./playground/Playground";
 
 function App() {
@@ -6,4 +5,3 @@ function App() {
 }
 
 export default App;
-```

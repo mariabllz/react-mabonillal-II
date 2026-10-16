@@ -1,8 +1,7 @@
-```jsx
 import Header from "./Header";
 import Perfil from "./Perfil";
 import Tarjeta from "./Tarjeta";
-import DatoCurioso from "./DatoCurioso";
+import DatoCurioso from "./Datocurioso";
 import Footer from "./Footer";
 
 function Playground() {
@@ -24,4 +23,3 @@ function Playground() {
 }
 
 export default Playground;
-```

@@ -1,4 +1,3 @@
-```jsx
 function DatoCurioso() {
   return (
     <section className="container my-4">
@@ -14,4 +13,3 @@ function DatoCurioso() {
 }
 
 export default DatoCurioso;
-```

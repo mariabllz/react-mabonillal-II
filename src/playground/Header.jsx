@@ -1,4 +1,3 @@
-```jsx
 function Header() {
   return (
     <header className="container py-4 text-center">
@@ -9,4 +8,3 @@ function Header() {
 }
 
 export default Header;
-```

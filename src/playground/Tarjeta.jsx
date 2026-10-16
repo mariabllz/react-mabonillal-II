@@ -1,4 +1,3 @@
-```jsx
 function Tarjeta() {
   return (
     <div className="card m-3" style={{ maxWidth: "350px" }}>
@@ -17,4 +16,3 @@ function Tarjeta() {
 }
 
 export default Tarjeta;
-```

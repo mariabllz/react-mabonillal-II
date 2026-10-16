@@ -1,4 +1,3 @@
-```jsx
 function Perfil() {
   return (
     <section className="container my-4 text-center">
@@ -13,4 +12,3 @@ function Perfil() {
 }
 
 export default Perfil;
-```

@@ -1,4 +1,3 @@
-```jsx
 function Footer() {
   return (
     <footer className="container py-4 text-center">
@@ -10,4 +9,3 @@ function Footer() {
 }
 
 export default Footer;
-```
