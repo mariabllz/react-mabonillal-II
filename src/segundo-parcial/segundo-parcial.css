@@ -1,0 +1,31 @@
+.segundo-parcial { color: #172b38; background: #fff; font-family: "Segoe UI", system-ui, sans-serif; line-height: 1.65; --bs-primary: #166a75; --bs-primary-rgb: 22,106,117; }
+.segundo-parcial .container { max-width: 1160px; }
+.segundo-parcial .sp-monogram { display: inline-grid; place-items: center; width: 38px; height: 38px; background: #166a75; color: white; border-radius: 10px; font-size: .9rem; }
+.segundo-parcial .navbar-brand { color: #172b38; }
+.segundo-parcial .nav-link { font-weight: 500; }
+.segundo-parcial .nav-link:hover { color: #166a75; }
+.segundo-parcial .sp-hero { background: #f0f5f3; border-bottom: 1px solid #e0e8e5; }
+.segundo-parcial .sp-eyebrow { font-size: .75rem; font-weight: 700; letter-spacing: .14em; color: #166a75; margin-bottom: 1rem; }
+.segundo-parcial .display-3 { font-size: clamp(2.8rem, 5.5vw, 4.8rem); line-height: 1.08; letter-spacing: -.045em; }
+.segundo-parcial .sp-readable { max-width: 550px; }
+.segundo-parcial .sp-portrait { max-width: 390px; border: 1px solid #dbe3df; border-radius: 100px 16px 16px 16px; overflow: hidden; box-shadow: 18px 18px 0 #dce9e3; }
+.segundo-parcial .sp-portrait img { height: 360px; object-fit: cover; object-position: center 35%; }
+.segundo-parcial .btn-primary { --bs-btn-bg: #166a75; --bs-btn-border-color: #166a75; --bs-btn-hover-bg: #11515a; --bs-btn-hover-border-color: #11515a; --bs-btn-active-bg: #11515a; --bs-btn-active-border-color: #11515a; }
+.segundo-parcial .btn-outline-primary { --bs-btn-color: #166a75; --bs-btn-border-color: #166a75; --bs-btn-hover-bg: #166a75; --bs-btn-hover-border-color: #166a75; --bs-btn-active-bg: #11515a; }
+.segundo-parcial .btn { font-size: .95rem; font-weight: 600; padding: .7rem 1.2rem; border-radius: 8px; }
+.segundo-parcial section { scroll-margin-top: 1.5rem; }
+.segundo-parcial .sp-section { padding: 5rem 0; }
+.segundo-parcial h2 { font-size: clamp(1.9rem, 3vw, 2.6rem); font-weight: 700; letter-spacing: -.03em; }
+.segundo-parcial h3 { font-weight: 650; }
+.segundo-parcial .sp-soft { background: #f6f8f7; }
+.segundo-parcial .card { border-color: #e0e6e4; border-radius: 12px; box-shadow: 0 5px 16px #172b3805; }
+.segundo-parcial .sp-icon { display: inline-grid; place-items: center; width: 44px; height: 44px; border-radius: 10px; font-size: 1.3rem; }
+.segundo-parcial .progress { height: 9px; background: #e6edeb; }
+.segundo-parcial .sp-footer { background: #172f3a; color: #fff; }
+.segundo-parcial .sp-footer a { color: #fff; }
+.segundo-parcial .sp-footer .sp-muted { color: #c3d2d7; }
+.segundo-parcial .sp-skip { position: absolute; left: 1rem; top: -100px; z-index: 100; padding: .6rem 1rem; background: white; }
+.segundo-parcial .sp-skip:focus { top: 1rem; }
+.segundo-parcial a:focus-visible, .segundo-parcial button:focus-visible { outline: 3px solid #b26b13; outline-offset: 4px; }
+@media (max-width: 767px) { .segundo-parcial .sp-section { padding: 3rem 0; } .segundo-parcial .sp-portrait { max-width: 330px; box-shadow: 9px 9px 0 #dce9e3; } .segundo-parcial .sp-portrait img { height: 300px; } }
+@media (prefers-reduced-motion: reduce) { .segundo-parcial *, .segundo-parcial *::before, .segundo-parcial *::after { transition: none !important; animation: none !important; } }
