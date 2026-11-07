@@ -1,5 +1,5 @@
 .segundo-parcial { color: #172b38; background: #fff; font-family: "Segoe UI", system-ui, sans-serif; line-height: 1.65; --bs-primary: #166a75; --bs-primary-rgb: 22,106,117; }
-.segundo-parcial .container { max-width: 1160px; }
+.segundo-parcial .container { max-width: 1160px; padding-inline: 1.5rem; }
 .segundo-parcial .sp-monogram { display: inline-grid; place-items: center; width: 38px; height: 38px; background: #166a75; color: white; border-radius: 10px; font-size: .9rem; }
 .segundo-parcial .navbar-brand { color: #172b38; }
 .segundo-parcial .nav-link { font-weight: 500; }
